@@ -1,0 +1,13 @@
+{
+  "name": "json-server",
+  "version": "1.0",
+  "scripts": {
+    "server": "node server/server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "jest": "^29.4.3",
+    "json-server": "^0.17.2"
+  }
+}
