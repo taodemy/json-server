@@ -18,7 +18,7 @@ server.use(
 server.use(middleware);
 server.use(
   jsonServer.rewriter({
-    "/api/*": "/$1",
+    "/api/v1/*": "/$1",
     // '/blog/:resource/:id/show': '/:resource/:id'
   })
 );
