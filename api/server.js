@@ -4,7 +4,7 @@ const path = require("path");
 
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router(path.join(__dirname, "/tem/db.json"));
+const router = jsonServer.router(path.join("./tmp", "db.json"));
 const middleware = jsonServer.defaults();
 
 const PORT = process.env.JSON_SERVER_PORT;
