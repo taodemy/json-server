@@ -1,9 +1,10 @@
 require("dotenv").config();
 const cors = require("cors");
+const path = require("path");
 
 const jsonServer = require("json-server");
 const server = jsonServer.create();
-const router = jsonServer.router("./tmp/test_db.json");
+const router = jsonServer.router(path.join(__dirname, "test_db.json"));
 // const router = jsonServer.router("/tmp/test_db.json");
 const middleware = jsonServer.defaults();
 
@@ -20,7 +21,6 @@ server.use(middleware);
 server.use(
   jsonServer.rewriter({
     "/api/v1/*": "/$1",
-    // '/blog/:resource/:id/show': '/:resource/:id'
   })
 );
 
