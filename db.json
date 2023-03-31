@@ -1,51 +1,52 @@
 {
-  "posts": [
+  "Hero": [
     {
       "id": 1,
-      "title": "description of this file",
-      "author": "Trent",
-      "comments": {
-        "body": "this is the test data for json server, check detail in https://www.npmjs.com/package/json-server#getting-started"
-      }
+      "slogan": "We are a/n digital agency/n from Melbourne.",
+      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
+      "iconPath": "/images/vector.png",
+      "photoPath": "/images/hero.png"
+    }
+  ],
+  "OurClients": [
+    {
+      "id": 1,
+      "aria_label": "super_food_icon",
+      "icon": "/icons/super_food_icon.svg",
+      "alt": "super food icon"
     },
     {
       "id": 2,
-      "title": "config used for this project",
-      "author": "test2",
-      "comments": {
-        "Set port": "--port, -p "
-      }
+      "aria_label": "creative_studio_icon",
+      "icon": "/icons/creative_studio_icon.svg",
+      "alt": "creative studio icon"
     },
     {
       "id": 3,
-      "title": "test3",
-      "author": "test3",
-      "comments": {
-        "body": "you can use other config to play with, such as:--host, -H to Set host, --static, -s to Set static files directory"
-      }
+      "aria_label": "in_motion_icon",
+      "icon": "/icons/in_motion_icon.svg",
+      "alt": "in motion icon"
+    },
+    {
+      "id": 4,
+      "aria_label": "abstract_icon",
+      "icon": "/icons/abstract_icon.svg",
+      "alt": "abstract icon"
+    },
+    {
+      "id": 5,
+      "aria_label": "vision_studio_icon",
+      "icon": "/icons/vision_studio_icon.svg",
+      "alt": "vision studio icon"
+    },
+    {
+      "id": 6,
+      "aria_label": "invision_square_icon",
+      "icon": "/icons/invision_square_icon.svg",
+      "alt": "invision square icon"
     }
   ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    },
-    {
-      "id": 22,
-      "body": "22",
-      "postId": 2
-    },
-    {
-      "body": "body text from postman",
-      "postId": 333,
-      "id": 23
-    },
-    {
-      "body": "postman without id and postId",
-      "id": 24
-    }
-  ],
+
   "profile": {
     "name": "typicode"
   }
