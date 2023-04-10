@@ -1,53 +1,367 @@
 {
-  "Hero": [
-    {
-      "id": 1,
-      "slogan": "We are a/n digital agency/n from Melbourne.",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.",
-      "iconPath": "/images/vector.png",
-      "photoPath": "/images/hero.png"
+  "IndexPage": {
+    "Hero": {
+      "heading":" We are a \n digital agency \n from Melbourne.",
+      "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
+    },
+    "OurClients":{
+      "id":1,
+      "title":"OUR CLIENTS",
+      "iconItems":[
+        {
+          "id": 1,
+          "aria_label": "super_food_icon",
+          "icon": "/icons/super_food_icon.svg",
+          "alt": "super food icon"
+        },
+        {
+          "id": 2,
+          "aria_label": "creative_studio_icon",
+          "icon": "/icons/creative_studio_icon.svg",
+          "alt": "creative studio icon"
+        },
+        {
+          "id": 3,
+          "aria_label": "in_motion_icon",
+          "icon": "/icons/in_motion_icon.svg",
+          "alt": "in motion icon"
+        },
+        {
+          "id": 4,
+          "aria_label": "abstract_icon",
+          "icon": "/icons/abstract_icon.svg",
+          "alt": "abstract icon"
+        },
+        {
+          "id": 5,
+          "aria_label": "vision_studio_icon",
+          "icon": "/icons/vision_studio_icon.svg",
+          "alt": "vision studio icon"
+        },
+        {
+          "id": 6,
+          "aria_label": "invision_square_icon",
+          "icon": "/icons/invision_square_icon.svg",
+          "alt": "invision square icon"
+        }
+      ]  
+    },
+    "WhatWeDo":{
+      "whatWeDoItems":[
+        {
+          "id": 1,
+          "title": "BRANDING",
+          "content":
+            "Branding is the process of creating a distinct identity for a business in the mind.",
+          "icon": "/images/branding_icon.png",
+          "alt": "Branding icon"
+        },
+        {
+          "id": 2,
+          "title": "DESIGN",
+          "content": "A design is a plan or specification for the construction of an object or system.",
+          "icon": "/images/design_icon.png",
+          "alt": "Design icon"
+        },
+        {
+          "id": 3,
+          "title": "VIDEO",
+          "content": "Video is an electronic medium for the recording, copying, playback, broadcasting.",
+          "icon": "/images/video_icon.png",
+          "alt": "Video icon"
+        },
+        {
+          "id": 4,
+          "title": "CONTENT",
+          "content":
+            "Something that is to be expressed through some medium, as speech, writing, or any of various arts.",
+          "icon": "/images/content_icon.png",
+          "alt": "Content icon"
+        }
+      ]
+    },
+    "FeaturedWork":{
+      "imgBoxes":[
+        {
+          "location": "images/featured-work-sec-img-2.png",
+          "title": "Enjoy Silence",
+          "hasBorder": true
+        },
+        {
+          "location": "images/featured-work-sec-img-3.png",
+          "title": "Pure Vision",
+          "hasBorder": false
+        },
+        {
+          "location": "images/featured-work-sec-img-4.png",
+          "title": "Boring Brand",
+          "hasBorder": true
+        },
+        {
+          "location": "images/featured-work-sec-img-5.png",
+          "title": "New Culture",
+          "hasBorder": false
+        }
+      ]
+    },
+    "HowWeWork":{
+      "sectionName":"How we work",
+      "title":"We help our clients\nsucceed with innovative\nstrategies.",
+      "iconPath":"/images/star.svg",
+      "blockType":"smallHeading",
+      "content":"Our team of experts is dedicated to delivering real results through creativity, strategic thinking, and technical expertise. Whether it‘s developing a new marketing campaign, designing a website, or creating a mobile app, we are always pushing the boundaries of what’s possible to help our clients stay ahead of the curve.",
+      "buttonContent":"our services"
+    },
+    "Values":{
+      "listItems":[
+        {
+          "id": 1,
+          "title": "VISION",
+          "content":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam at. Pretium aenean pharetra magna ac placerat.",
+          "icon": "/images/number_one_icon.svg"
+        },
+        {
+          "id": 2,
+          "title": "INNOVATION",
+          "content":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam at. Pretium aenean pharetra magna ac placerat.",
+          "icon": "/images/number_two_icon.svg"
+        },
+        {
+          "id": 3,
+          "title": "CONNECTION",
+          "content":
+            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque in dictum non consectetur a erat nam at. Pretium aenean pharetra magna ac placerat.",
+          "icon": "/images/number_three_icon.svg"
+        }
+      ]
+    },
+    "Contact":{
+      "sectionName":"Contact",
+      "title":"Let’s bring your brand to the next level",
+      "iconPath":"/images/design_icon.svg",
+      "blockType":"normal",
+      "content":"Contact us to explore partnership opportunities and discover how we can work together to drive innovation and create positive change.",
+      "buttonContent":"get in touch"
+    },
+    "LatestNews":[
+      {
+        "id":1,
+        "title":"Things to Look for When Comparing Branding Alternatives",
+        "subtitle":"BRANDING, DESIGN",
+        "image":"/images/two_people_praying.png",
+        "direction":"column_reverse"
+      },
+      {
+        "id":2,
+        "title":"5 Stand-out Features of Branding You Should Know",
+        "subtitle":"BRANDING, DESIGN",
+        "image":"/images/channel.png",
+        "direction":"column_reverse"
+      },
+      {
+        "id":3,
+        "title":"Branding: What Real Customers Have to Say",
+        "subtitle":"BRANDING, DESIGN",
+        "image":"/images/brand_strategy.png",
+        "direction":"column_reverse"
+      }
+    ]
+  },
+  
+  "ServicePage":{
+    "ServiceTitle": {
+    "id": 1,
+    "title": "SERVICES",
+    "heading": "We create \n true brands.",
+    "button": [
+      {
+        "id":1,
+        "text":"BRANDING"
+      },
+      {
+        "id": 2,
+        "text": "DESIGN"
+      },
+      {
+        "id": 3,
+        "text": "VIDEO"
+      },
+      {
+        "id": 4,
+        "text": "CONTENT"
+      }
+    ]
+    },
+    "ServiceItems":[
+      {
+        "id": 1,
+        "service_name": "BRANDING",
+        "icon__arial_label": "service_branding_logo",
+        "icon_path": "/images/branding_icon.svg",
+        "icon_alt": "branding icon",
+        "service_heading":
+          "A strong brand is a tool to connect people with your brand all around the world.",
+        "service_info1":
+          "A strong brand in creating a meaningful connection between people and a company's products or services, regardless of geographical location. When a brand is strong, it can communicate a clear and consistent message about its values, mission, and offerings, which helps to build trust and loyalty with consumers.",
+        "service_info2":
+          "By connecting people with a brand all around the world, a strong brand can help a company expand its reach and tap into new markets. This can lead to increased sales and revenue, as well as greater recognition and influence in the industry.",
+        "image__arial_label": "service_branding_image",
+        "image_path": "/images/featured-work-sec-img-1.png",
+        "image_alt": "branding image",
+        "link1": "LOGO",
+        "link2": "CORPORATE IDENTITY",
+        "link3": "BRAND GUIDE"
+      },
+      {
+        "id": 2,
+        "service_name": "DESIGN",
+        "icon__arial_label": "service_design_logo",
+        "icon_path": "/images/design_icon.svg",
+        "icon_alt": "design icon",
+        "service_heading":
+          "We specialize in creating amazing web experiences that people will love based on your great ideas.",
+        "service_info1":
+          "To create web experiences that meet your needs and preferences, we would have a deep understanding of your target audience, as well as their brand identity and messaging. we would translate this information into a website that is both functional and visually appealing, while also being optimized for performance and accessibility.",
+        "service_info2":
+          "By specializing in this area and emphasizing your commitment to your satisfaction, we are positioning ourself as a trusted partner in creating exceptional web experiences that will help you achieve the goals and stand out in a competitive digital landscape.",
+        "image__arial_label": "service_design_image",
+        "image_path": "/images/featured-work-sec-img-2.png",
+        "image_alt": "design image",
+        "link1": "WEBDESIGN",
+        "link2": "PRINT",
+        "link3": "SOCIAL MEDIA"
+      },
+      {
+        "id": 3,
+        "service_name": "VIDEO",
+        "icon__arial_label": "service_video_logo",
+        "icon_path": "/images/video_icon.svg",
+        "icon_alt": "video icon",
+        "service_heading":
+          "We inspire people to stand up for what they believe in with amazing video strategies.",
+        "service_info1":
+          "We focus on inspiring people to take action through powerful video strategies. we believe in the power of visual storytelling to create meaningful connections with your audience and motivate them to stand up for their beliefs. To inspire people to take action, we would need to have a deep understanding of your target audience, as well as a keen eye for visual storytelling and messaging.",
+        "service_info2":
+          "Creating compelling video content that not only captures your audience's attention but also resonates with them on an emotional level and motivates them to take action. ",
+        "image__arial_label": "service_video_image",
+        "image_path": "/images/featured-work-sec-img-3.png",
+        "image_alt": "video image",
+        "link1": "VIDEOS ADS",
+        "link2": "SOCIAL MEDIA SHORTS",
+        "link3": "MOVIE TRAILERS"
+      },
+      {
+        "id": 4,
+        "service_name": "CONTENT",
+        "icon__arial_label": "service_content_logo",
+        "icon_path": "/images/content_icon.svg",
+        "icon_alt": "content icon",
+        "service_heading":
+          "If you want to succeed, you need to create content that potential consumers will find valuable.",
+        "service_info1":
+          "In order to build a strong brand and attract customers, businesses must provide content that is not only relevant and informative but also adds value to the consumer's life.To create valuable content, businesses must have a deep understanding of their target audience and their needs and preferences. ",
+        "service_info2":
+          "They must be able to identify the topics and issues that are of interest to their audience and create content that addresses these topics in a compelling and informative way.",
+        "image__arial_label": "service_content_image",
+        "image_path": "/images/featured-work-sec-img-4.png",
+        "image_alt": "content image",
+        "link1": "SOCIAL MEDIA ADS",
+        "link2": "LANDING PAGES",
+        "link3": "WEBSITES"
+      }
+    ],
+    "Contact":{
+      "sectionName":"Contact",
+      "title":"Let’s bring your brand to the next level",
+      "iconPath":"/images/design_icon.svg",
+      "blockType":"normal",
+      "content":"Contact us to explore partnership opportunities and discover how we can work together to drive innovation and create positive change.",
+      "buttonContent":"get in touch"
     }
-  ],
-  "OurClients": [
-    {
-      "id": 1,
-      "aria_label": "super_food_icon",
-      "icon": "/icons/super_food_icon.svg",
-      "alt": "super food icon"
-    },
-    {
-      "id": 2,
-      "aria_label": "creative_studio_icon",
-      "icon": "/icons/creative_studio_icon.svg",
-      "alt": "creative studio icon"
-    },
-    {
-      "id": 3,
-      "aria_label": "in_motion_icon",
-      "icon": "/icons/in_motion_icon.svg",
-      "alt": "in motion icon"
-    },
-    {
-      "id": 4,
-      "aria_label": "abstract_icon",
-      "icon": "/icons/abstract_icon.svg",
-      "alt": "abstract icon"
-    },
-    {
-      "id": 5,
-      "aria_label": "vision_studio_icon",
-      "icon": "/icons/vision_studio_icon.svg",
-      "alt": "vision studio icon"
-    },
-    {
-      "id": 6,
-      "aria_label": "invision_square_icon",
-      "icon": "/icons/invision_square_icon.svg",
-      "alt": "invision square icon"
-    }
-  ],
+  },
 
-  "profile": {
-    "name": "typicode"
+  "BlogPage":{
+    "CardLg":[
+      {
+        "id":1,
+        "image":"/images/two_people_praying.png",
+        "title":"Things to Look for When Comparing Branding Alternatives",
+        "subtitle":"Branding, Design",
+        "direction":"column_reverse",
+        "size":"lg",
+        "large_title":true,
+        "path":"blog/1"
+      },
+      {
+        "id":2,
+        "image":"/images/channel.png",
+        "title":"5 Stand-out Features of Branding You Should Know",
+        "subtitle":"Branding, Design",
+        "direction":"column_reverse",
+        "size":"lg",
+        "large_title":true,
+        "path":"blog/2"
+      }
+    ],
+    "CardSmOne":[
+      {
+        "id":1,
+        "image":"/images/what_is_brand_strategy.png",
+        "title":"Branding: What Real Customers Have to Say",
+        "subtitle":"Branding, Design",
+        "direction":"column_reverse",
+        "size":"sm",
+        "path":"blog/3"
+      },
+      {
+        "id":2,
+        "image":"/images/shaping_art.png",
+        "title":"Branding: Pros and Cons They Don't Tell You",
+        "subtitle":"Branding, Design",
+        "direction":"column_reverse",
+        "size":"sm",
+        "path":"blog/4"
+      },
+      {
+        "id":3,
+        "image":"/images/hero_hand.png",
+        "title":"How to Spot the Best Branding for You: Signs and Features",
+        "subtitle":"Branding, Design",
+        "direction":"column_reverse",
+        "size":"sm",
+        "path":"blog/5"
+      }
+    ],
+    "CardSmTwo":[
+      {
+        "id":1,
+        "image":"/images/perfume.png",
+        "title":"How Much Should I Spend on Branding",
+        "subtitle":"Branding, Design",
+        "direction":"column_reverse",
+        "size":"sm",
+        "path":"blog/6"
+      },
+      {
+        "id":2,
+        "image":"/images/hero.png",
+        "title":"Rookie Mistakes You're Making With Your Branding",
+        "subtitle":"Branding, Design",
+        "direction":"column_reverse",
+        "size":"sm",
+        "path":"blog/7"
+      },
+      {
+        "id":3,
+        "image":"/images/gabby.png",
+        "title":"Real Branding Customer Reviews You Need to See",
+        "subtitle":"Branding, Design",
+        "direction":"column_reverse",
+        "size":"sm",
+        "path":"blog/8"
+      }
+    ]
   }
-}
+} 
