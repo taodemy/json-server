@@ -362,6 +362,68 @@
         "size":"sm",
         "path":"blog/8"
       }
+    ],
+    "BlogsData":[
+      {
+        "id": "1",
+        "title": "Things to Look for When Comparing Branding Alternatives",
+        "subtitle": "The Battle for the Future of the Universe",
+        "content": "The vast and mysterious depths of the ocean hold some of the most bizarre and fascinating creatures on our planet. From bioluminescent jellyfish to giant squid, the deep sea is home to an incredible array of life that has captivated scientists and the public alike for centuries.Exploring the deep sea is no easy task, with extreme pressure, darkness, and cold temperatures presenting significant challenges to scientists and researchers. However, with the help of cutting-edge technology, we are now able to delve deeper and discover more about this fascinating world.",
+        "image": "/images/two_people_praying.png",
+        "alt": "Branding icon",
+        "info": {
+          "date": "16 JUNE 2022",
+          "category": "design",
+          "readingTime": "10 MIN"
+        },
+        "author": "Guy Hawkins",
+        "authorInfo": "lorem Branding is the process of creating a distinct "
+      },
+      {
+        "id": "2",
+        "title": "5 Stand-out Features of Branding You Should Know",
+        "subtitle": "The Dark Secret of the Abandoned Asylum",
+        "content": "The vast and mysterious depths of the ocean hold some of the most bizarre and fascinating creatures on our planet. From bioluminescent jellyfish to giant squid, the deep sea is home to an incredible array of life that has captivated scientists and the public alike for centuries.Exploring the deep sea is no easy task, with extreme pressure, darkness, and cold temperatures presenting significant challenges to scientists and researchers. However, with the help of cutting-edge technology, we are now able to delve deeper and discover more about this fascinating world.",
+        "image": "/images/channel.png",
+        "alt": "Branding icon",
+        "info": {
+          "date": "16 JUNE 2022",
+          "category": "design",
+          "readingTime": "10 MIN"
+        },
+        "author": "Guy Hawkins",
+        "authorInfo": "lorem Branding is the process of creating a distinct "
+      },
+      {
+        "id": "3",
+        "title": "BRANDING: What Real Customers Have to Say",
+        "subtitle": "The Rise and Fall of the Galactic Empire",
+        "content": "The vast and mysterious depths of the ocean hold some of the most bizarre and fascinating creatures on our planet. From bioluminescent jellyfish to giant squid, the deep sea is home to an incredible array of life that has captivated scientists and the public alike for centuries.Exploring the deep sea is no easy task, with extreme pressure, darkness, and cold temperatures presenting significant challenges to scientists and researchers. However, with the help of cutting-edge technology, we are now able to delve deeper and discover more about this fascinating world.",
+        "image": "/images/hero.png",
+        "alt": "Branding icon",
+        "info": {
+          "date": "16 JUNE 2022",
+          "category": "design",
+          "readingTime": "10 MIN"
+        },
+        "author": "Guy Hawkins",
+        "authorInfo": "lorem Branding is the process of creating a distinct "
+      },
+      {
+        "id": "4",
+        "title": "BRANDING: Pros and Cons They Don't Tell You",
+        "subtitle": "The Chronicles of a Time-Traveling Detective",
+        "content": "The vast and mysterious depths of the ocean hold some of the most bizarre and fascinating creatures on our planet. From bioluminescent jellyfish to giant squid, the deep sea is home to an incredible array of life that has captivated scientists and the public alike for centuries.Exploring the deep sea is no easy task, with extreme pressure, darkness, and cold temperatures presenting significant challenges to scientists and researchers. However, with the help of cutting-edge technology, we are now able to delve deeper and discover more about this fascinating world.",
+        "image": "/images/featured-work-sec-img-1.png",
+        "alt": "Branding icon",
+        "info": {
+          "date": "16 JUNE 2022",
+          "category": "design",
+          "readingTime": "10 MIN"
+        },
+        "author": "Guy Hawkins",
+        "authorInfo": "lorem Branding is the process of creating a distinct"
+      }
     ]
   }
 } 
