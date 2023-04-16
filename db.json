@@ -1,10 +1,10 @@
 {
-  "IndexPage": {
-    "Hero": {
+  "indexPage": {
+    "hero": {
       "heading":" We are a \n digital agency \n from Melbourne.",
       "text":"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor."
     },
-    "OurClients":{
+    "ourClients":{
       "id":1,
       "title":"OUR CLIENTS",
       "iconItems":[
@@ -46,7 +46,7 @@
         }
       ]  
     },
-    "WhatWeDo":{
+    "whatWeDo":{
       "whatWeDoItems":[
         {
           "id": 1,
@@ -80,7 +80,7 @@
         }
       ]
     },
-    "FeaturedWork":{
+    "featuredWork":{
       "imgBoxes":[
         {
           "location": "images/featured-work-sec-img-2.png",
@@ -104,7 +104,7 @@
         }
       ]
     },
-    "HowWeWork":{
+    "howWeWork":{
       "sectionName":"How we work",
       "title":"We help our clients\nsucceed with innovative\nstrategies.",
       "iconPath":"/images/star.svg",
@@ -112,7 +112,7 @@
       "content":"Our team of experts is dedicated to delivering real results through creativity, strategic thinking, and technical expertise. Whether it‘s developing a new marketing campaign, designing a website, or creating a mobile app, we are always pushing the boundaries of what’s possible to help our clients stay ahead of the curve.",
       "buttonContent":"our services"
     },
-    "Values":{
+    "values":{
       "listItems":[
         {
           "id": 1,
@@ -137,7 +137,7 @@
         }
       ]
     },
-    "Contact":{
+    "contact":{
       "sectionName":"Contact",
       "title":"Let’s bring your brand to the next level",
       "iconPath":"/images/design_icon.svg",
@@ -145,7 +145,7 @@
       "content":"Contact us to explore partnership opportunities and discover how we can work together to drive innovation and create positive change.",
       "buttonContent":"get in touch"
     },
-    "LatestNews":[
+    "latestNews":[
       {
         "id":1,
         "title":"Things to Look for When Comparing Branding Alternatives",
@@ -170,8 +170,8 @@
     ]
   },
   
-  "ServicePage":{
-    "ServiceTitle": {
+  "servicePage":{
+    "serviceTitle": {
     "id": 1,
     "title": "SERVICES",
     "heading": "We create \n true brands.",
@@ -194,7 +194,7 @@
       }
     ]
     },
-    "ServiceItems":[
+    "serviceItems":[
       {
         "id": 1,
         "service_name": "BRANDING",
@@ -272,7 +272,7 @@
         "link3": "WEBSITES"
       }
     ],
-    "Contact":{
+    "contact":{
       "sectionName":"Contact",
       "title":"Let’s bring your brand to the next level",
       "iconPath":"/images/design_icon.svg",
@@ -282,8 +282,8 @@
     }
   },
 
-  "BlogPage":{
-    "CardLg":[
+  "blogPage":{
+    "cardLg":[
       {
         "id":1,
         "image":"/images/two_people_praying.png",
@@ -305,7 +305,7 @@
         "path":"blog/2"
       }
     ],
-    "CardSmOne":[
+    "cardSmOne":[
       {
         "id":1,
         "image":"/images/what_is_brand_strategy.png",
@@ -334,7 +334,7 @@
         "path":"blog/5"
       }
     ],
-    "CardSmTwo":[
+    "cardSmTwo":[
       {
         "id":1,
         "image":"/images/perfume.png",
@@ -363,7 +363,7 @@
         "path":"blog/8"
       }
     ],
-    "BlogsData":[
+    "blogsData":[
       {
         "id": "1",
         "title": "Things to Look for When Comparing Branding Alternatives",
